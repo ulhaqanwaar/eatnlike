@@ -1,0 +1,151 @@
+body{
+font-family: 'Sanchez', serif;    
+    
+}
+
+h1 h2 h3 h4 h5 h6 p span i strong ul li ol{
+    
+font-family: 'Sanchez', serif;
+    
+}
+
+#navbar{
+    
+    background: url(../images/bg.jpg)no-repeat center center;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.mynavbar{
+    
+    background-color: transparent;
+    border: solid 0px;
+    
+}
+
+.navbar-nav li a{
+    
+    color: #fff!important;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Sanchez', serif;
+}
+
+.navbar-nav li a:hover{
+    
+    color: #fff!important;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Sanchez', serif;
+} 
+
+
+.caption{
+    
+    font-family: 'Sanchez', serif;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20%;
+   
+}
+
+
+
+.caption strong{
+    
+    color:#FF0000;
+    font-weight: 900;
+   
+}
+
+.caption i{
+    
+    padding-right: 10px!important;
+    color:rgba(255,250,250,0.6);
+}
+
+.caption h1{
+    
+    font-size: 60px;
+    color: #FF2E2E;
+    /*color:#F22C67;*/
+    font-weight: 900;
+     background: rgba(255,255,255,0.5);
+    text-align: center;
+}
+
+
+
+.caption p {
+font-size: 24px;
+   
+}
+
+.search-bar{
+    
+    margin-top: 12%;
+}
+.search-bar [class*="col-"]{
+    
+    padding: 0px!important;
+}
+
+.search-bar input{
+    
+    background: rgba(0,0,0,0.6);
+    color:#fff;
+}
+#footer{
+    background: url(../images/footer-background.jpg);
+    background-size: cover;
+    background-color: #404040;
+}
+
+.contact h3{
+    color: #ffffff;
+} 
+
+.aboutus h3{
+    color: #ffffff;
+}
+.membership h3{
+    
+    color: #ffffff;
+}
+
+.social h3{
+    color: #ffffff;
+}
+
+#footer{
+    
+    padding: 10px 0;
+}
+
+.fotter-links{
+    
+    padding: 0px;
+}
+
+.fotter-links li{
+    
+    color: #fff;
+    padding: 10px 0;
+    margin: 0px;
+    list-style: none;
+    line-height:2;
+    
+}
+
+
+.fotter-links li i{
+    
+    padding-right: 10px;
+    
+}
+
+.contact [class*="col-"]{
+    
+    padding: 0px!important;
+}
