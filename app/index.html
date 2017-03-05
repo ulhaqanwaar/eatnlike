@@ -6,32 +6,168 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>EatNLike</title>
-  <base href="/"/>
+  <title>EatNLike Angular App</title>
+  <base href="/eatnlike-app/app/"/>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">             
   <link rel="stylesheet" href="app.css">
-  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  
 </head>
 <body>
-  <ul>
+     <section id="navbar">
+    <nav class="navbar navbar-inverse mynavbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <!-- <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li> 
+        <li><a href="#">Page 3</a></li> 
+      </ul>-->
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="home">HOME</a></li>
+    <li><a href="about">ABOUT</a></li>
+    <li><a href="ohter">SIGNUP</a></li>
+    <li><a href="other">LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+        <div class="caption">
+    <h1 class="wow animated bounceInLeft"> EAT & LIKE</h1>  
+    <p class="animated zoomIn"><i class="fa fa-cutlery"></i> Best Food <strong>in Islamabad</strong> </p>
+    <p class="animated zoomIn"><i class="fa fa-star"></i>Top Rating Resturants<strong> & Cafes </strong> </p>    
+    <p class="animated zoomIn"><i class="fa fa-thumbs-up"></i> Give Your Feedback </p>
+    </div>    
+            </div>
+            </div>
+            </div>
+        
+         <section id="search">
+    <div class="container">
+    <div class="row">
+        <div class="search-bar">
+    <div class="col-md-3 col-md-offset-2">
+        <input type="text" class="form-control" placeholder="Persons">
+    </div>  
+    <div class="col-md-2">
+        <input type="text" class="form-control" placeholder="Food Type">
+    </div>
+    <div class="col-md-2">
+         <input type="text" class="form-control" placeholder="Budget">
+    </div>    
+            <div class="col-md-1">
+       <button type="button" class="btn btn-danger btn-block"><i class="fa fa-search"></i></button>
+    </div>
+    </div>    
+    </div>
+        </div>
+    </section>
+    </section>
+     <section id="category" ng-view>
+    
+   
+    
+    </section>
+     <footer id="footer">
+    <div class="container">
+    <div class="row">
+        
+    <div class="col-sm-3">
+        <div class="contact">
+        <h3> Contact Us</h3>
+        <ul class="fotter-links">
+        <li> ADRESS: ISLAMABAD G-8/4 STREET 28 KHANNAPUL PLAZA</li>
+        <li> PHONE: +092 123 324</li>
+        <li> HEAD-OFFICE: E-11/2 MARKAZ</li>    
+        </ul>
+            <div class="row">
+            <div class="col-md-8">    
+            <input type="text" class="form-control" placeholder="Email">
+            </div>
+            <div class="col-md-4">
+            <button class="btn btn-danger btn-block ">Submit</button>    
+            </div>    
+            </div>
+        </div>    
+    </div>
+    <div class="col-sm-3">
+        <div class="aboutus">
+        <h3> About Us</h3>
+            <ul class="fotter-links">
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+    </div> 
+    </div>    
+    <div class="col-sm-3">
+        <div class="membership">
+        <h3> Membership </h3>
+               <ul class="fotter-links">
+       <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Lorem ipsum dolor sit amet</li>           
+                
+        </ul>
+            
+    </div>    
+        </div>
+    <div class="col-sm-3">
+        <div class="social">
+        <h3> Social Networks</h3>
+             <ul class="fotter-links">
+            
+             <li><i class="fa fa-facebook"></i>Facebook</li>    
+             <li><i class="fa fa-twitter"></i>Twitter</li>
+             <li><i class="fa fa-linkedin"></i>Linked In</li>
+             <li><i class="fa fa-google"></i>Google</li>     
+            </ul>
+            </div>
+    </div>        
+    </div>    
+    </div>
+    
+    </footer>
+ <!-- <ul>
     <li><a href="home">Home</a></li>
     <li><a href="about">About</a></li>
     <li><a href="other">other</a></li>
-    
-  </ul>
+  </ul>-->
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ng-view></div>
+ 
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>    
+  <script src="js/jquery.min.js"></script>    
+  <script src="js/bootstrap.min.js"></script>    
+  <script src="js/wow.min.js"></script>    
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="app.js"></script>
